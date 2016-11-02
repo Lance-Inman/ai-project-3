@@ -8,8 +8,7 @@ implementing four powerful learning algorithms. These four algorithms are called
 <b>Naïve Bayes</b>, <b>TAN</b>, and <b>ID3</b>. For this assignment, you will use five datasets that you will download from
 the UCI Machine Learning Repository, namely:<br>
 <br>
-1. Breast Cancer — https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%
-29
+1. Breast Cancer — https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29
 This breast cancer databases was obtained from the University of Wisconsin Hospitals, Madison from
 Dr. William H. Wolberg.<br>
 2. Glass — https://archive.ics.uci.edu/ml/datasets/Glass+Identification/
@@ -58,9 +57,9 @@ experiments. You should also output the summary statistics on classification acc
 &nbsp;&nbsp;&nbsp;8. Summary<br>
 &nbsp;&nbsp;&nbsp;9. References (you should have at least one reference related to each of the algorithms implemented,
 a reference to the data sources, and any other references you consider to be relevant)<br>
-<br>
 • Submit your fully documented code for the data converter, results of the runs of each algorithm, your
 design document, and your paper.<br>
+<br>
 <b>Due Dates:</b><br>
 • Design Document – November 4, 2016<br>
 • Program Code and Sample Runs – November 18, 2016<br>
