@@ -5,27 +5,26 @@ import java.util.ArrayList;
  *
  * @author  Lance Inman
  * @version 1.0
- * @seealso DataSet, Classifier
+ * @see DataSet, Classifier
  */
 public class Sample {
-    private String className;
-    private ArrayList<String> data;
+    public String className;
+    public ArrayList<String> data;
 
-    public Sample(String line, int classIndex) {
-        data = new ArrayList<String>();
-        processLine(line, classIndex);
+    public Sample(String dataEntry, int classNameIndex) {
+        data = new ArrayList<>();
+        processLine(dataEntry, classNameIndex);
     }
 
-    private void processLine(String line, int classIndex) throws ArrayIndexOutOfBoundsException{
-        String[] values = line.split(", ");
+    private void processLine(String dataEntry, int classNameIndex) throws ArrayIndexOutOfBoundsException{
+        String[] values = dataEntry.split(", ");
         for(int i = 0; i < values.length; i++) {
-            if(i == classIndex) {
+            if(i == classNameIndex) {
                 className = values[i];
             } else {
                 data.add(values[i]);
             }
         }
-
     }
 
 }
