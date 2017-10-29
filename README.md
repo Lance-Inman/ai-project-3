@@ -1,4 +1,7 @@
 # project-3
+-------------------------
+FINISHED
+-------------------------
 <b>CSCI 446 — Artificial Intelligence<br>
 Project #3<br>
 Experiments in Machine Learning</b><br>
